@@ -7,6 +7,7 @@ public class SistemaTableros {
 
     public static void main(String[] args) {
 
+        Controladora control = new Controladora();
         
         Principal princ = new Principal();
         princ.setVisible(true);

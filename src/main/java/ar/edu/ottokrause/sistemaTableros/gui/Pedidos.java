@@ -11,13 +11,6 @@ public class Pedidos extends javax.swing.JFrame {
         initComponents();
         setLocationRelativeTo(null);
         setResizable(false);
-        setIconImage(getIconImage());
-    }
-
-    @Override
-    public Image getIconImage(){
-        Image retValue = Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("ar.edu.ottokrause.sistemaTableros.image/Logo.png"));
-        return retValue;
     }
             
             
